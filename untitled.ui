@@ -17,7 +17,7 @@
    <string notr="true">background:'black';</string>
   </property>
   <widget class="QWidget" name="centralwidget">
-   <widget class="QListWidget" name="listWidget">
+   <widget class="QListWidget" name="image_list">
     <property name="geometry">
      <rect>
       <x>10</x>
@@ -30,7 +30,7 @@
      <string notr="true">background:'orange';</string>
     </property>
    </widget>
-   <widget class="QPushButton" name="pushButton">
+   <widget class="QPushButton" name="papka_button">
     <property name="geometry">
      <rect>
       <x>20</x>
@@ -47,24 +47,24 @@ border-radius:10px</string>
      <string>Папка</string>
     </property>
    </widget>
-   <widget class="QLabel" name="label">
+   <widget class="QLabel" name="image_label">
     <property name="geometry">
      <rect>
       <x>140</x>
-      <y>220</y>
-      <width>51</width>
-      <height>20</height>
+      <y>20</y>
+      <width>531</width>
+      <height>411</height>
      </rect>
     </property>
     <property name="styleSheet">
-     <string notr="true">background:'orange';
-border-radius:10px</string>
+     <string notr="true">color:white;
+</string>
     </property>
     <property name="text">
      <string>Картинка</string>
     </property>
    </widget>
-   <widget class="QPushButton" name="pushButton_2">
+   <widget class="QPushButton" name="left_button">
     <property name="geometry">
      <rect>
       <x>140</x>
@@ -81,7 +81,7 @@ border-radius:10px</string>
      <string>Ліворуч</string>
     </property>
    </widget>
-   <widget class="QPushButton" name="pushButton_3">
+   <widget class="QPushButton" name="right_button">
     <property name="geometry">
      <rect>
       <x>250</x>
@@ -98,7 +98,7 @@ border-radius:10px</string>
      <string>Праворуч</string>
     </property>
    </widget>
-   <widget class="QPushButton" name="pushButton_4">
+   <widget class="QPushButton" name="mirror_button">
     <property name="geometry">
      <rect>
       <x>360</x>
@@ -115,7 +115,7 @@ border-radius:10px</string>
      <string>Дзеркало</string>
     </property>
    </widget>
-   <widget class="QPushButton" name="pushButton_5">
+   <widget class="QPushButton" name="sharpness_button">
     <property name="geometry">
      <rect>
       <x>470</x>
